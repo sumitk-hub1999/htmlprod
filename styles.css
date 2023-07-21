@@ -70,7 +70,7 @@ body {
 }
 .head {
   font-size: 1rem;
-  margin-right: 40vh;
+  margin-right: 28vh;
   background-color: rgb(240, 240, 240);
   margin-top: 10px;
   cursor: pointer;
@@ -129,6 +129,7 @@ body {
 }
 .body-main {
   display: flex;
+  flex-direction: column;
   margin-top: 35px;
   max-width: 1200px;
   margin: 0 20px;
@@ -148,7 +149,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-right: 100vh;
+  margin-right: 98vh;
   cursor: pointer;
 }
 .back-link i {
@@ -168,6 +169,7 @@ body {
   background-color: white;
   margin-right: 10px;
   border-radius: 100%;
+  cursor: pointer;
 }
 
 .fa-pencil {
@@ -191,4 +193,39 @@ body {
 
 .fa-table-cells-large {
   color: rgb(28, 89, 230);
+}
+
+.main-profile {
+  background-color: white;
+  display: flex;
+  padding: 30px;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.profile-details {
+  display: flex;
+  margin-bottom: 30px;
+}
+.more-dets {
+  display: flex;
+  margin-bottom: 30px;
+}
+.details-further {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.profile-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.p-pic {
+  height: 180px;
+  width: 220px;
+  border-radius: 100%;
+  border: 1px solid lightgrey;
+  margin-right: 30px;
+  padding: 5px;
 }
